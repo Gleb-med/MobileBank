@@ -21,7 +21,9 @@ class SecondViewController: UIViewController {
     private let add_money_button = UIButton().self
     private let del_money_button = UIButton().self
     
-    override func viewDidLoad(){
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
         view.backgroundColor = .systemGray
         title = StructOperation.glovalVariable.userName + ", hello!"
         
